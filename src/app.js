@@ -14,10 +14,6 @@ app.use("/", (req, res) => {
   res.send("Namaste NodeJs");
 });
 
-app.use("/", (req, res) => {
-  res.send("Namaste NodeJs");
-});
-
 app.listen(7777, () => {
   console.log("Server is running on port 7777...");
 });
