@@ -10,6 +10,10 @@ app.use("/test", (req, res) => {
   res.send("Server is Running");
 });
 
+app.use("/test1", (req, res) => {
+  res.send("Server is Running fine");
+});
+
 app.use("/", (req, res) => {
   res.send("Namaste NodeJs");
 });
